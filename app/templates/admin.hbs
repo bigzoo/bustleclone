@@ -1,7 +1,13 @@
 {{new-article save='saveParent'}}
 {{#each model.articles as |article|}}
   {{article.title}}
+  <!-- <button {{action 'showUpdate'}}>Update</button> -->
+  <!-- {{#if show}} -->
+    
+    <br>
+  <!-- {{/if}} -->
 {{/each}}
+<hr>
 {{#each model.toparticles as |toparticle|}}
   {{toparticle.title}}
 {{/each}}

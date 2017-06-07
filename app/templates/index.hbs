@@ -1,9 +1,9 @@
 <h1>Our Main Page</h1>
+
+{{top-panel ourdata=model.toparticles}}
 {{#each model.articles as |article|}}
   <p>Our Article</p>
   {{article.title}}<br>
   {{article.author}}
 {{/each}}
-{{top-panel ourdata=model.toparticles}}
-
 {{outlet}}
