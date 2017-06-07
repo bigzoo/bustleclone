@@ -1,0 +1,12 @@
+<h2>Our Top Panel</h2>
+{{data.content}}
+{{#each ourdata as |article|}}
+  {{#link-to 'article' article.id}}
+    {{article.author}}'s {{article.title}}
+  {{/link-to}}
+  <br>
+   <!-- {{#if article.author "Mozart"}}
+    {{article.content}}
+   {{/if}} -->
+{{/each}}
+{{yield}}

@@ -1,0 +1,20 @@
+{ "articles":[
+  {
+    "title":"Music Pop",
+    "imgUrl":"",
+    "author":"Mozart",
+    "content":"lorem ipsum"
+  },
+  {
+    "title":"Dance Pop",
+    "imgUrl":"",
+    "author":"Uhuru",
+    "content":"ipsum lorem"
+  },
+  {
+    "title":"Pop Culter",
+    "imgUrl":"",
+    "author":"Micheal Jackson",
+    "content":"lorem ipsum ipsum"
+  }]
+}
