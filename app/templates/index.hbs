@@ -1,9 +1,9 @@
 <h1>Our Main Page</h1>
-{{#each model as |article|}}
+{{#each model.articles as |article|}}
   <p>Our Article</p>
   {{article.title}}<br>
   {{article.author}}
 {{/each}}
-{{top-panel ourdata=model}}
+{{top-panel ourdata=model.toparticles}}
 
 {{outlet}}

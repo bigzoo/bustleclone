@@ -1,0 +1,12 @@
+<form >
+  <label for="">Title</label>
+  {{input id="title" value=title}}
+  <label for="">Author</label>
+  {{input id="author" value=author}}
+  <label for="">Content</label>
+  {{input id="content" value=content}}
+  <label for="">Image url</label>
+  {{input id="imgUrl" value=imgUrl}}
+  <button {{action 'save'}}>Save Article</button>
+</form>
+{{yield}}

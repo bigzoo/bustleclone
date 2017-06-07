@@ -1,0 +1,8 @@
+{{new-article save='saveParent'}}
+{{#each model.articles as |article|}}
+  {{article.title}}
+{{/each}}
+{{#each model.toparticles as |toparticle|}}
+  {{toparticle.title}}
+{{/each}}
+{{outlet}}
